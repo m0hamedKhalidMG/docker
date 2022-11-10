@@ -16,7 +16,7 @@ job:
     run-on: ubuntu-latest
 
 
-    step:
+    steps:
       - name: "test"
         run: pwd
       - name: "test2"
