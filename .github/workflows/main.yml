@@ -19,6 +19,6 @@ jobs:
     steps:
       - name: "test"
         run: pwd
-      - name: "test2"
-        run: echo mohamed
+      - name: "printing"
+        run: ls
       
