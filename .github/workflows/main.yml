@@ -17,9 +17,8 @@ jobs:
 
 
     steps:
-      - name: "test"
-        run: pwd
+      
       - uses: actions/checkout@v3  
-      - name: "printing"
-        run: ls
+      - name: "login to doker hub"
+        run: docker login --username m0hamedkhalid --password dckr_pat_IrfVWHrtp5bM6nIQ8YRNDYa0VxA
       
